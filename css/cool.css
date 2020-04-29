@@ -1,0 +1,78 @@
+*{
+   margin:0;
+   padding: 0;
+   font-family: Comic Sans, Comic Sans MS, cursive;
+}
+ul{ 
+    float: right;
+    list-style-type: none;
+    margin-top: 18px;
+
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.5s ease;
+    background-color: black;
+    }
+
+    ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+	
+    .logo img{
+    	float: left;
+    	width:150px; 
+    }
+    .main{
+    	max-width: 1200px;
+    	margin: auto;
+
+    }
+    .title{
+    	position: absolute;
+    	top: 25%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
+        font-size: 30px; 
+        color: white;
+        text-shadow: 0 0 12px #8B008B, 0 0 20px #9400D3;
+        letter-spacing: 3px;
+
+    }
+    .photo img{
+    	position: absolute;
+    	top: 30%;
+    	left:27.5%; 
+    	width: 400px;
+    	height: 600px;
+    }
+    .photo2 img{
+    	position: absolute;
+    	top: 30%;
+    	right:27.5%;
+    	width: 400px;
+    	height: 600px;
+    }
+    .dragon img{
+        position: absolute;
+        left: 5%;
+        width: 350px;
+        height: 500px;  
+        top: 35%;
+    }
+    .z img{
+        position: absolute;
+        right: 5%;
+        width: 350px;
+        height: 500px;  
+        top: 35%;
+    }

@@ -1,0 +1,73 @@
+*{
+   margin:0;
+   padding: 0;
+   font-family: Comic Sans, Comic Sans MS, cursive;
+}
+ul{ 
+	float: right;
+	list-style-type: none;
+	margin-top: 18px;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.5s ease;
+    background-color: black;
+	}
+
+	ul li a:hover{
+		background-color: white;
+		color: black;
+	}
+	.sub{
+		position: absolute;
+		top: 8%;
+		left: 10%;
+		color: black;
+		text-shadow: 0 0 12px #8B008B, 0 0 20px #9400D3;
+        letter-spacing: 1px;
+
+	}
+	.ball img{
+		position: absolute;
+		width: 500px;
+		height: 600px;
+		top: 15%;
+		left: 10%;
+	}
+	.mario img{
+		position: absolute;
+        right: 30%;
+        width: 350px;
+        height: 500px;  
+        top: 20%;
+   }
+	.part {
+    position: absolute;
+  text-align: center;
+    width:500px;
+    top: 15%;
+    height: 560px;
+  background-color: white;
+  padding: 20px;
+  left: 45%;
+  opacity: 80%;
+}
+p {
+  color: black;
+  font-size: 23px;
+  position: relative
+  padding: 20px;
+}
+	
+
+
+
